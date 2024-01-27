@@ -1,5 +1,9 @@
 body{
-    background:pink !important;
+    background-color: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%); 
 }
-h1{ color:lightcoral !important;
+h1{ color:lightcoral;
+}
+
+button{
+    color: black;
 }
