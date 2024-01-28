@@ -1,9 +1,19 @@
 body{
-    background-color: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%); 
+    background-color: rgba(0, 0, 0, 0); 
 }
-h1{ color:lightcoral;
+h1 , button{ color:lightcoral;
+    text-align:center;
+    text-transform:uppercase;
 }
-
-button{
-    color: black;
+P{
+    color:aliceblue
+}
+.button-container{
+    text-align: center;
+}
+em{
+    color: darkred;
+}
+title{
+    color: lightcoral
 }
