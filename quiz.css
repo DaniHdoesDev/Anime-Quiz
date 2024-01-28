@@ -1,22 +1,33 @@
 body{
-    background-color: rgba(0, 0, 0, 0); 
+    background-color: black; 
 }
 h1 , button{ color:lightcoral;
     text-align:center;
     text-transform:uppercase;
 }
-.img{
-    opacity: 0.5;
+img{
+    opacity: 0.4;
+    width: 300px;
 }
-P{
-    color:aliceblue
+p{
+    
+    color: turquoise;
 }
 .button-container{
     text-align: center;
+    color: purple;
+}
+#top{
+    background-color: purple;
+    color: darkturquoise;
 }
 em{
     color: darkred;
 }
 title{
-    color: lightcoral
+    color: lightcoral;
+}
+.questions-container{
+        text-align: center;
+        color: orange;
 }
