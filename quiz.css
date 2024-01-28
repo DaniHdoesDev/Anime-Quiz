@@ -5,6 +5,9 @@ h1 , button{ color:lightcoral;
     text-align:center;
     text-transform:uppercase;
 }
+.img{
+    opacity: 0.5;
+}
 P{
     color:aliceblue
 }
