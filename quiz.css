@@ -5,21 +5,23 @@ h1 , button{ color:lightcoral;
     text-align:center;
     text-transform:uppercase;
 }
-img{
+.anya{
     opacity: 0.4;
     width: 300px;
 }
+.copyright{
+    text-align:center;
+    text-shadow:2px 2px 5px rgb(64, 97, 207);
+}
+.email{
+    color:pink;
+}
 p{
-    
-    color: turquoise;
+    color: rgb(177, 68, 28);
 }
 .button-container{
     text-align: center;
-    color: purple;
-}
-#top{
-    background-color: purple;
-    color: darkturquoise;
+    
 }
 em{
     color: darkred;
@@ -30,4 +32,9 @@ title{
 .questions-container{
         text-align: center;
         color: orange;
+}
+.sailor{
+    width: 20px;
+    height: 20px;
+    opacity: 0.6;
 }
