@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"extensions": {
+		"recommendations": [
+			"christian-kohler.path-intellisense"
+		]
+	},
+	"settings": {
+		"path-intellisense.showHiddenFiles": true,
+		"editor.inlineSuggest.suppressSuggestions": true,
+		"editor.inlineCompletionsAccessibilityVerbose": true,
+		"editor.quickSuggestions": {
+			"comments": "on",
+			"strings": "on"
+		},
+		"powermode.enabled": true,
+		"powermode.presets": "fireworks",
+		"powermode.shake.enabled": false
+	}
+}
