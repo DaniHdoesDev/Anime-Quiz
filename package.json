@@ -1,0 +1,22 @@
+{
+  "name": "anime-starter-quiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "quiz.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaniHdoesDev/Anime-starter-quiz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaniHdoesDev/Anime-starter-quiz/issues"
+  },
+  "homepage": "https://github.com/DaniHdoesDev/Anime-starter-quiz#readme",
+  "devDependencies": {
+    "hint": "^7.1.10"
+  }
+}
