@@ -1,40 +1,106 @@
 body{
-    background-color: black; 
+    background-image: url("SpyXFamily mission.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: lightslategray; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-h1 , button{ color:lightcoral;
+/* Navigation bar start*/
+nav{
+    background-color: black;
+    position:sticky;
+    text-transform:uppercase;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu{
+    height: 100%;
+    padding:2px; /* creates space around element's content*/
+}
+li{
+    font-style:none;
+    font-size:medium;
+    display: inline;
+    padding: 2px 2px 2px 2px;
+}
+a{
+    text-decoration: none !important;
+    color:lightcoral !important;
+}
+
+li a:visited{
+    text-decoration: none !important;
+    color: orange !important;
+}
+/* End of Navigation bar*/
+
+h1 , button{ 
+    color:lightcoral;
     text-align:center;
     text-transform:uppercase;
 }
+
+
+
+/* Changes the Anya gif*/
 .anya{
     opacity: 0.4;
-    width: 300px;
+    width: 100px;
 }
+
+/*Copyright*/
 .copyright{
     text-align:center;
     text-shadow:2px 2px 5px rgb(64, 97, 207);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+/*Email address*/
 .email{
     color:pink;
 }
+
+/* Summary of SPY X Family*/
 p{
     color: rgb(177, 68, 28);
+    text-align: center;
 }
+
+/* Centers buttons */
 .button-container{
     text-align: center;
-    
 }
+
+/* Emphasizes on important words */
 em{
     color: darkred;
 }
+
 title{
     color: lightcoral;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+
 .questions-container{
         text-align: center;
         color: orange;
+
 }
+
+/* Sailor Moon gif*/
 .sailor{
     width: 20px;
     height: 20px;
     opacity: 0.6;
+}
+
+.return{
+    text-align: center;
+    
 }
